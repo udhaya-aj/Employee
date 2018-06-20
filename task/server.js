@@ -27,6 +27,11 @@ app.all('*', function (req, res, next) {
     } else {
         next();
     }
+
+
+
+
+
 });
 app.use('/api', route);
 var server = app.listen(8000, function(){
